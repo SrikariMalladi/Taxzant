@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxzant - Simplifying Your Tax World</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <h1 class="company-name">Taxzant</h1>
+            <p class="subtitle">Simplifying Your Tax World</p>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#why-choose-us">Why Choose Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home">
+        <div class="container">
+            <h1>Expert Tax Advisory Services</h1>
+            <p>We simplify tax complexities and provide reliable solutions for businesses and individuals.</p>
+            <button id="openConsultationModal" class="btn">Book a Tax Consultation</button>
+            <button id="openTaxAdviceModal" class="btn">Get Expert Tax Advice</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Key Services</h2>
+            <div class="service-item">
+                <h3>Corporate Tax Planning</h3>
+                <p>Strategic tax solutions to optimize your corporate tax structure.</p>
+            </div>
+            <div class="service-item">
+                <h3>Personal Tax Advisory & Filing</h3>
+                <p>Personalized tax filing and advisory for individuals.</p>
+            </div>
+            <div class="service-item">
+                <h3>International Tax Solutions</h3>
+                <p>Global tax strategies to manage cross-border tax compliance.</p>
+            </div>
+            <div class="service-item">
+                <h3>VAT/GST Compliance</h3>
+                <p>Ensure full compliance with VAT/GST regulations for your business.</p>
+            </div>
+            <div class="service-item">
+                <h3>Tax Risk Management & Consulting</h3>
+                <p>Mitigate tax-related risks and improve tax governance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us" id="why-choose-us">
+        <div class="container">
+            <h2>Why Choose Us</h2>
+            <p>At Taxzant, we provide clear, proactive, and reliable tax solutions tailored to your needs. Our attention to detail ensures you navigate tax challenges efficiently, allowing you to focus on growing your business.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Talk to our tax experts today to get personalized solutions that simplify your tax challenges!</p>
+            <button id="openConsultationModal" class="btn">Get Expert Tax Advice</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Taxzant | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Tax Consultation Form -->
+    <div id="consultationModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeConsultationModal">&times;</span>
+            <h2>Book a Tax Consultation</h2>
+            <form id="consultationForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal for Tax Advice Message -->
+    <div id="taxAdviceModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeTaxAdviceModal">&times;</span>
+            <h2>Get Expert Tax Advice</h2>
+            <p>Our tax experts are ready to provide you with tailored advice that suits your individual or business needs. Don't hesitate to contact us for customized solutions!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
